@@ -12,6 +12,6 @@ export class AppComponent {
   data: Observable<DataModel>;
 
   constructor(private http: HttpClient) {
-    this.data = this.http.get<DataModel>('data/data.json');
+    this.data = this.http.get<DataModel>('./assets/data.json');
   }
 }
