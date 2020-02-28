@@ -65,7 +65,7 @@ export class BarChartComponent implements OnChanges {
         .attr('y', 6)
         .attr('dy', '0.71em')
         .attr('text-anchor', 'end')
-        .text('Frequency');
+        .text('frequency');
 
     g.selectAll('.bar')
       .data(data)
